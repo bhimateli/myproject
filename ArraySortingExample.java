@@ -1,4 +1,3 @@
-package com.yodlee.app.yodleeApi.practice;
 
 import java.util.HashMap;
 import java.util.Map;
