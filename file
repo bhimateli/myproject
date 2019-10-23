@@ -1,0 +1,77 @@
+    1  pwd
+    2  ls
+    3  cd /
+    4  ls
+    5  pwd
+    6  ip addr
+    7  ip
+    8  ip addr
+    9  clear
+   10  pwd
+   11  ls
+   12  sudo apt update
+   13  clear
+   14  pwd
+   15  ls
+   16  sudo apt install git
+   17  git --version
+   18  git --help
+   19  pwd
+   20  cd 
+   21  pwd
+   22  mkdir bteliRepo
+   23  pwd
+   24  ls
+   25  cd bteliRepo/
+   26  ls
+   27  cd b
+   28  ls
+   29  pwd
+   30  mkdir myprojects
+   31  cd myprojects/
+   32  ls
+   33  pwd
+   34  history
+   35  touch Addition.java
+   36  vi Addition.java 
+   37  vi bteli.txt
+   38  ls
+   39  vi config.json
+   40  ls
+   41  git init
+   42  ls
+   43  ls -a
+   44  git status
+   45  git add Addition.java 
+   46  git add bteli.txt 
+   47  git add config.json 
+   48  git status
+   49  git 
+   50  clear
+   51  pwd
+   52  ls
+   53  history
+   54  git -config bhimashankar
+   55  git status
+   56  pwd
+   57  cd -
+   58  pwd
+   59  ls
+   60  cd bteliRepo/
+   61  ls
+   62  cd myprojects/
+   63  ls
+   64  git
+   65  git status
+   66  git commit -m "Initial commit"
+   67  git config --global user.name "Bhimashankar"
+   68  git config --global user.name
+   69  git config --global user.email "bteli.selenium@gmail.com"
+   70  git config --global user.email
+   71  git config --global user
+   72  touch newFile
+   73  git add .
+   74  git commit -m "User name commit"
+   75  clear
+   76  history
+   77  history > file
