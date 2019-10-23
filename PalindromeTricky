@@ -1,0 +1,40 @@
+
+public class PalindromeTricky {
+	
+	
+	
+
+	public static boolean checkPalindrome(String str) {
+
+		boolean flag = false;
+		int k = str.length() - 1;
+
+		for (int i = 0; i < (str.length() - 1) / 2; i++) {
+
+			if (!(str.charAt(i) == str.charAt(k))) {
+				flag = false;
+				break;
+			} else {
+				flag = true; k--;
+			}
+		}
+		return flag;
+	}
+
+	public static void main(String[] args) {
+
+		String str = "abcd";
+		
+	boolean flag = checkPalindrome(str);
+	
+if(flag) {
+	System.out.println("Given string is Palin so no extra char required");
+
+}else {
+	System.out.println("Not Palin: required chars are "+(str.length()-1));
+	
+}
+	
+	}
+
+}
